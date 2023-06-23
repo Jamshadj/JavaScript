@@ -102,3 +102,45 @@ maximumValue.forEach((value)=>{
 })
 console.log(maximum);
 
+//Filter out all the even numbers from an array and print the resulting array.
+
+const Numbers=[1,2,3,4,5,32,43,4232,32,323]
+let evenNumber=[]
+
+Numbers.forEach((Element)=>{
+    if (Element%2==0) {
+        evenNumber.push(Element)
+    }
+})
+console.log(evenNumber);
+
+//Given an array of names, create a new array that contains the names with their lengths.
+
+const names=['john','mike','joe','peter']
+
+const namesLength=[]
+
+names.forEach((ele)=>{
+    const eleLength=ele.length
+    namesLength.push(ele+'='+eleLength)
+})
+
+console.log(namesLength);
+
+//Given an array of strings, convert each string to uppercase and print the updated array.
+const updatedName=[]
+names.forEach((ele)=>{
+   const updatedele=ele.toUpperCase()
+   updatedName.push(updatedele)
+})
+
+console.log(updatedName);
+
+//Find and print the average of all the numbers in an array.
+const avg=[]
+number.forEach((ele)=>{
+
+    const average=ele/number.length
+    avg.push(average)
+})
+console.log(avg);
