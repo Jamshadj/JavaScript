@@ -74,10 +74,11 @@ console.log(count)
 
 //using forEach and reduce method 
 // find total mark of each and every one
-const students=[{
+const students=[{ 
     name:"john",
     mark:[12,32,12,13,15]
 },{
     name:"mark",
     mark:[23,12,21,32,21]
 }]
+       
