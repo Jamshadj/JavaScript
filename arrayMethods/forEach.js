@@ -137,10 +137,25 @@ names.forEach((ele)=>{
 console.log(updatedName);
 
 //Find and print the average of all the numbers in an array.
-const avg=[]
-number.forEach((ele)=>{
 
-    const average=ele/number.length
+
+const Num=[1,2,3,4,5,32,43,4232,32,323]
+const avg=[]
+Num.forEach((ele)=>{
+
+    const average=ele/Num.length
     avg.push(average)
 })
 console.log(avg);
+
+//Given an array of objects representing products, print the names of all the products.
+
+const products = [
+  { id: 1, name: 'Product 1' },
+  { id: 2, name: 'Product 2' },
+  { id: 3, name: 'Product 3' },
+];
+
+products.forEach((ele)=>{
+  console.log(ele.name);
+})
