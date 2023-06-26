@@ -61,3 +61,21 @@ const maxNumber=Number.reduce((acc,ele)=>{
 })
 
 console.log(maxNumber);
+
+//Given an array of numbers, calculate the product of all the numbers.
+
+const product=[
+    {name:"laptop",
+    Quantity:3,
+    mrp:30000},
+    {name:"Mobile",
+    Quantity:6,
+    mrp:10000},
+    {name:"T-V",
+    Quantity:8,
+    mrp:23000}
+]
+const totalValue=product.reduce((acc,ele)=>{
+   return acc+ele.Quantity*ele.mrp},0
+)
+console.log(totalValue);
