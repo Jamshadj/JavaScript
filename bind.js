@@ -1,4 +1,4 @@
-// Apply is similar to call, but it takes an array of arguments as input. The this keyword in the function call will be set to the first element in the array.
+// Bind takes a function and a list of arguments as input, and it returns a new function. The new function will have the same body as the original function, but the this keyword will be set to the first argument in the list.
 
 
 const fullname=function(hello,initial){
