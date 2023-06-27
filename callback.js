@@ -66,3 +66,5 @@ fectData1((value1)=>{
 //to correct this we use promise or async await
 
 
+
+
